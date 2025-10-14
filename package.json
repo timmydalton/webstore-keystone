@@ -1,6 +1,6 @@
 {
   "name": "@webstore/keystone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive library providing country data, phone validation patterns, postal code formats, and currency information for international applications",
   "main": "index.js",
   "type": "module",

@@ -1,4 +1,4 @@
-export const countries_data = Object.freeze([
+export const COUNTRIES_DATA = Object.freeze([
   {
     country: "Vietnam",
     code: "84",
