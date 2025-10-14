@@ -1,6 +1,54 @@
 {
   "name": "@webstore/keystone",
   "version": "1.0.0",
+  "description": "A comprehensive library providing country data, phone validation patterns, postal code formats, and currency information for international applications",
   "main": "index.js",
-  "type": "module"
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "country",
+    "validation",
+    "phone",
+    "postal",
+    "currency",
+    "international",
+    "format",
+    "regex",
+    "validation-patterns",
+    "country-data",
+    "phone-validation",
+    "postal-codes"
+  ],
+  "author": "Webstore Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webstore/keystone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webstore/keystone/issues"
+  },
+  "homepage": "https://github.com/webstore/keystone#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "lint": "eslint index.js",
+    "prepublishOnly": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
 }
