@@ -328,5 +328,12 @@ export const COUNTRIES_DATA = Object.freeze([
     currency: 'JMD',
     validate: "^(876|658)\\d{7}",
     postalFormat: "^[0-9]{2}$"
+  },
+  {
+    name: 'Brunei',
+    code: '673',
+    currency: 'BND',
+    validate: "^(\\+673|673)([0-9]{8})$",
+    postalFormat: "^[0-9]{5}$"
   }
 ])
