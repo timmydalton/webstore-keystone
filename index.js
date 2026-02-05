@@ -335,5 +335,12 @@ export const COUNTRIES_DATA = Object.freeze([
     currency: 'BND',
     validate: "^(\\+673|673)([0-9]{8})$",
     postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'United Kingdom',
+    code: '44',
+    currency: 'GBP',
+    validate: "^(\\+44|44)(7[0-9]{9})$",
+    postalFormat: "^[A-Z0-9 ]{5,8}$"
   }
 ])
