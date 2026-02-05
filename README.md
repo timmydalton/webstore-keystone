@@ -34,7 +34,7 @@ Each country object contains:
 
 ## Supported Countries
 
-Vietnam, Philippines, Cambodia, Laos, Indonesia, Taiwan, Thailand, Malaysia, India, Myanmar, Bangladesh, UAE, USA, Colombia, Ecuador, Saudi Arabia, Qatar, Singapore, Peru, Chile, Brazil, Nepal, South Korea, Japan, Hong Kong, Nigeria, Afghanistan, Kuwait, Oman, Bahrain, Mongolia, Spain, Mexico, Argentina, Venezuela, Costa Rica, Bolivia, Paraguay, Dominican Republic, Honduras, Australia, New Zealand, Canada, China, Panama, Guatemala, Jamaica
+Vietnam, Philippines, Cambodia, Laos, Indonesia, Taiwan, Thailand, Malaysia, India, Myanmar, Bangladesh, UAE, USA, Colombia, Ecuador, Saudi Arabia, Qatar, Singapore, Peru, Chile, Brazil, Nepal, South Korea, Japan, Hong Kong, Nigeria, Afghanistan, Kuwait, Oman, Bahrain, Mongolia, Spain, Mexico, Argentina, Venezuela, Costa Rica, Bolivia, Paraguay, Dominican Republic, Honduras, Australia, New Zealand, Canada, China, Panama, Guatemala, Jamaica, United Kingdom
 
 ## License
 
