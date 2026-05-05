@@ -342,5 +342,26 @@ export const COUNTRIES_DATA = Object.freeze([
     currency: 'GBP',
     validate: "^(\\+44|44|0)(7)([0-9]{9})$",
     postalFormat: "^[A-Z0-9 ]{5,8}$"
+  },
+  {
+    name: 'Iran',
+    code: '98',
+    currency: 'IRR',
+    validate: "^(\\+98|98|0)?9\\d{9}$",
+    postalFormat: "^[0-9]{10}$"
+  },
+  {
+    name: 'Iraq',
+    code: '964',
+    currency: 'IQD',
+    validate: "^(\\+964|964|0)?7\\d{9}$",
+    postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Morocco',
+    code: '212',
+    currency: 'MAD',
+    validate: "^(\\+212|212|0)?[5-7]\\d{8}$",
+    postalFormat: "^[0-9]{5}$"
   }
 ])
