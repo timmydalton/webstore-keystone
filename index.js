@@ -415,5 +415,13 @@ export const COUNTRIES_DATA = Object.freeze([
     iso_alpha_2: "MA",
     validate: "^(\\+212|212|0)?[5-7]\\d{8}$",
     postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Germany',
+    code: '49',
+    currency: 'EUR',
+    iso_alpha_2: "DE",
+    validate: "^(\\+49|49|0)?1\\d{9,10}$",
+    postalFormat: "^[0-9]{5}$"
   }
 ])
