@@ -423,5 +423,93 @@ export const COUNTRIES_DATA = Object.freeze([
     iso_alpha_2: "DE",
     validate: "^(\\+49|49|0)?1\\d{9,10}$",
     postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Poland',
+    code: '48',
+    currency: 'PLN',
+    iso_alpha_2: "PL",
+    validate: "^(\\+48|48|0)?[5-9][0-9]{8}$",
+    postalFormat: "^[0-9]{2}-[0-9]{3}$"
+  },
+  {
+    name: 'Angola',
+    code: '244',
+    currency: 'AOA',
+    iso_alpha_2: "AO",
+    validate: "^(\\+244|244|0)?9[0-9]{8}$",
+    postalFormat: "^[0-9]{6}$"
+  },
+  {
+    name: 'Cuba',
+    code: '53',
+    currency: 'CUP',
+    iso_alpha_2: "CU",
+    validate: "^(\\+53|53|0)?5[0-9]{7}$",
+    postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Hungary',
+    code: '36',
+    currency: 'HUF',
+    iso_alpha_2: "HU",
+    validate: "^(\\+36|36|0)(20|30|31|50|70)([0-9]{7})$",
+    postalFormat: "^[0-9]{4}$"
+  },
+  {
+    name: 'Romania',
+    code: '40',
+    currency: 'RON',
+    iso_alpha_2: "RO",
+    validate: "^(\\+40|40|0)(7[0-9]{8})$",
+    postalFormat: "^[0-9]{6}$"
+  },
+  {
+    name: 'Bulgaria',
+    code: '359',
+    currency: 'BGN',
+    iso_alpha_2: "BG",
+    validate: "^(\\+359|359|0)(8[7-9][0-9]{7})$",
+    postalFormat: "^[0-9]{4}$"
+  },
+  {
+    name: 'Pakistan',
+    code: '92',
+    currency: 'PKR',
+    iso_alpha_2: "PK",
+    validate: "^(\\+92|92|0)(3[0-9]{9})$",
+    postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Macau',
+    code: '853',
+    currency: 'MOP',
+    iso_alpha_2: "MO",
+    validate: "^(\\+853|853)(6[0-9]{7})$",
+    postalFormat: "^[0-9]{4}$"
+  },
+  {
+    name: 'Kenya',
+    code: '254',
+    currency: 'KES',
+    iso_alpha_2: "KE",
+    validate: "^(\\+254|254|0)(7[0-9]{8}|1[01][0-9]{7})$",
+    postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Uganda',
+    code: '256',
+    currency: 'UGX',
+    iso_alpha_2: "UG",
+    validate: "^(\\+256|256|0)(7[0-9]{8})$",
+    postalFormat: "^[0-9]{5}$"
+  },
+  {
+    name: 'Netherlands',
+    code: '31',
+    currency: 'EUR',
+    iso_alpha_2: "NL",
+    validate: "^(\\+31|31|0)(6[0-9]{8})$",
+    postalFormat: "^[0-9]{4}\\s?[a-zA-Z]{2}$"
   }
 ])
