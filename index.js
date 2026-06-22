@@ -36,7 +36,7 @@ export const COUNTRIES_DATA = Object.freeze([
     code: "62",
     currency: "IDR",
     iso_alpha_2: "ID",
-    validate: "^(\\+62|62|08)(\\d{3,4}-?){1,2}\\d{3,4}$",
+    validate: "^(\+62|62|0)8[1-9][0-9]{7,10}$",
     postalFormat: "^[0-9]{5}$"
   },
   {
