@@ -8,6 +8,12 @@ A library providing country data with phone validation patterns, postal code for
 npm install @webstore/keystone
 ```
 
+## Publishing a patch version
+
+```bash
+npm version patch
+```
+
 ## Usage
 
 ```javascript
