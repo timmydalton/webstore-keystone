@@ -60,7 +60,7 @@ export const COUNTRIES_DATA = Object.freeze([
     code: "60",
     currency: "MYR",
     iso_alpha_2: "MY",
-    validate: "^(?:\\+?6?0)(?:3[1-9]|1[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[1-9]|9[0-9])\\d{7,8}$",
+    validate: "^(?:\\+?60|0)(?:3\\d{8}|11\\d{8}|1[02-9]\\d{7}|[4-9]\\d{7})$",
     postalFormat: "^[0-9]{5}$"
   },
   {
