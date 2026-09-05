@@ -1,2 +1,2 @@
-publish
+publish:
 	npm version patch
