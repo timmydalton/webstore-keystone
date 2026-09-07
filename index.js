@@ -511,5 +511,13 @@ export const COUNTRIES_DATA = Object.freeze([
     iso_alpha_2: "NL",
     validate: "^(\\+31|31|0)(6[0-9]{8})$",
     postalFormat: "^[0-9]{4}\\s?[a-zA-Z]{2}$"
+  },
+  {
+    name: 'France',
+    code: '33',
+    currency: 'EUR',
+    iso_alpha_2: 'FR',
+    validate: '^(\\+33|33|0)[1-9][0-9]{8}$',
+    postalFormat: '^[0-9]{5}$'
   }
 ])
