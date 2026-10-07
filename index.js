@@ -519,5 +519,13 @@ export const COUNTRIES_DATA = Object.freeze([
     iso_alpha_2: 'FR',
     validate: '^(\\+33|33|0)[1-9][0-9]{8}$',
     postalFormat: '^[0-9]{5}$'
+  },
+  {
+    name: 'Ireland',
+    code: '353',
+    currency: 'EUR',
+    iso_alpha_2: 'IE',
+    validate: '^(\\+353|353|0)?8[3-9][0-9]{7}$',
+    postalFormat: '^([A-Za-z][0-9]{2}|[Dd]6[Ww])\\s?[0-9A-Za-z]{4}$'
   }
 ])
